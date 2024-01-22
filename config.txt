@@ -1,7 +1,7 @@
 authorityKeyIdentifier=keyid,issuer
-basicConstraint=CA:FALSE
-keyUsage = digitalSignature, nonRepudiation, keyEnchiperment, data Enchiperment
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
 subjectAltName = @alt_name
 
-[alt_names]
+[alt_name]
 DNS.1 = latihanlks.id
